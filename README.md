@@ -1,117 +1,87 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=18557256&assignment_repo_type=AssignmentRepo)
-# SE_Day1
-Software Engineering Day1 Assignment
+SE_Day1_Assignment
 
 #Part 1: Introduction to Software Engineering
 
 Explain what software engineering is and discuss its importance in the technology industry.
-Software engineering is a branch of computer science focused on developing, testing, and maintaining software systems.
-It ensures that software is:
-Reliable: Performs as expected
-Efficient: Optimizes developer workflow
-Scalable and Flexible: Can handle increased workloads without performance degradation.
-Secure: Implements protection mechanisms like authentication, authorization, and encryption to safeguard user data.
+
+-it is the process of designing, creating,testing,and maintaining sotware programs . the goal of software enineering is to build software that is reliable. the importance is 1. it drives innovation by developing new technologies and shapes 2.it enhances operational efficiency and productivity across industries. 3.it tackles complex problems providing solutions that adress specific needs
 
 Identify and describe at least three key milestones in the evolution of software engineering.
-Mastering Complexity: The introduction of structured programming and modular design to manage increasing software complexity.
 
-Mastering Process: Development of software development methodologies such as Waterfall and Agile to streamline production.
-
-Mastering Machine: Advancements in programming languages, operating systems, and hardware integration.
-
+-in 1950-1960 the creation of early programming languages like fortran and cobol.it made easier to write sotfwares. -1970 the development of structured programming arised like loops which helped organize codes better and it improved code readability and maintainance. -1980- programming languages like c++ and later java script were introduced and this languages allowed programers to create softwares.
 
 List and briefly explain the phases of the Software Development Life Cycle.
-Planning: Identify software requirements, purpose, and scope.
-Requirement Analysis: Define user specifications and expectations.
-Design: Develop the software architecture and framework.
-Coding: Convert designs into executable code.
-Testing: Identify and fix bugs to ensure software reliability.
 
-
+planning- identfying project goals, defining requirements and create a project plan
+analysis- this is gathering details through interviews, oservation and surveys.
+design-creating architectural designs this is used to provide a blueprint for developers to follow.
+development-this is the actual creation of the software application.
+testing -this ensures quality and reliable before deployment .
+deployment-makes the software available for use.
+maintainance- keeps the software functioning .
 Compare and contrast the Waterfall and Agile methodologies. Provide examples of scenarios where each would be appropriate.
-waterfall methodology - Linear and sequential, each phase is completed before moving on. 
-- there is Low flexibility,
- changes are hard to incorporate once a phase is complete.
- - Customer feedback comes late, after the product is developed.
- - Testing is done at the end of the development process.
 
-
-agile methodology - Iterative and incremental, with multiple cycles (sprints). 
-- High flexibility, adapts to changing requirements. 
-- Regular customer feedback is incorporated into every sprint. 
-- Testing is continuous and done after each iteration.
-
-Use Cases:
-Waterfall is suitable for projects with well-defined requirements, such as government contracts while Agile works best for dynamic projects, such as web applications requiring frequent updates.
-
+-agile is more flexible and adaptive to change compared to waterfall -waterfall has limited client involvement after innitial stages while agile involves continuous client interaction -waterfall emphasizes extensive documentation while agile focuses on minimal necssary documentation. -example senario of agile is developing a mobile app where requirement are expected to evolve based on user feedback and market trends -example scenario of waterfall is developing software for a banking system with well-defined requirement and a need for documentation.
 
 Describe the roles and responsibilities of a Software Developer, a Quality Assurance Engineer, and a Project Manager in a software engineering team.
-Software Developer - developing applications,programs and systems using programming languages and frameworks.
- - maintaining and updating software to keep it functional. 
-- collaborating with other team members to ensure best practice when developing software.
- - reporting to the project manager about the progress of the software development.
 
-Quality Assurance Engineer - collaborate with stakeholders to understand and clarify software requirement.
- - create development standards and procedures for the programmers to follow
- - confirm that the software meets the requirement before deployment. 
-- analyse the product to identify bugs and suggest changes to make them more efficient. 
-- develop and execute automation scripts using open source tools.
+  Software engineering role and responsibilities
+designing and omplementing software
 
-Project Manager - assembles and lead the software development team.
- - discuss the project and it's requirement with the client and software developers.
- - create blueprint for the project.
- - tracking and communicating information regarding the project milestone.
- - deliver the complete software to the client and regularly check its performance
+writing and documenting code for systems
 
+identifying and fixing issues in the software
 
-Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.
-An integrated development environment (IDE) is a software platform that facilitates the creation of other software applications by providing a space to write, compile, and debug code, sometimes with value-adding tools that reduce development efforts. eg Visual Studio Code (VSCode)
-importance:
-Programming languages have rules for how statements must be structured. Because an IDE knows these rules, it contains many intelligent features for automatically writing or editing the source code.
-An IDE can format the written text by automatically making some words bold or italic, or by using different font colors. These visual cues make the source code more readable and give instant feedback about accidental syntax errors.
-an IDE can make suggestions to complete a code statement when the developer begins typing.
-IDEs increase programmer productivity by performing repeatable development tasks that are typically part of every code change. The following are some examples of regular coding tasks that an IDE carries out.
+collaborating with other other developers.
 
+updating and improving software systems.
 
+Quality assurance engineer
+Designing and executing tests to identify software defects.
+
+developing automation testing scripts.
+
+report and tracting issues
+
+ensurig the software meets quality standards and requirement before release.
+
+Project manager
+
+project planning
+
+allocating resources effectively.
+
+identifying risk and managing
+
+acts like an intermediate.
+
+monitoring and reporting.
+
+Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each. (IDEs) importance
+
+it boost productivity
+error reduction
+it enhances collabortion example is visual studio IDE provides and supports other programming lannguages and includes features like intergrated debugging. (VCS)
+it tracks changes allowing developers to track of every modification made to the codebase.
+multiple develpers can work on the same project simulteneously without overwriting each others changes.
+it provides a safety net for backup and recovery
+it allows developers to work on new features independently by branching and mwerging. example mercurial another distributed VCS can offer similar capabilities to GIT, known for its performance.
 What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
--rapid technological advancement places considerable pressure on software engineers to stay current.
- Solution: adopting continuous learning practices and using agile methodologies to adapt to emerging trends, keeping their skills sharp in an ever-evolving industry. -
-Time Constraints - Software engineering is a demanding and time-intensive field, often requiring engineers to work under high pressure to meet tight deadlines.
- Solution: adopt agile methodologies, such as Scrum, to streamline workflows by dividing large projects into manageable sprints 
--Limited Infrastructure - limited high-performance software engineering tools and computing platforms and inefficient data storage architectures. 
- Solution: Software engineers must rely heavily on a robust infrastructure to perform their jobs effectively.
-Changing Software Requirements - Software requirements are often dynamic and subject to frequent changes, making it challenging for engineers to design and develop solutions that meet users' needs while accounting for future updates and bug fixes. 
-Solution: engineers can adopt approaches like agile development, which emphasizes iterative progress and adaptability, and modular design, which enables flexibility by breaking systems into manageable, independent components.
-Software Security - Programming secure software is a complex and challenging task. 
-Solution: research ways to defend against hacking, malware, phishing, insider and third-party threats
-Software Accessibility and Usability - Overly complex software can frustrate or confuse users. 
-Solution: Use scalable architecture, Emphasize reliability.
 
-
+keeping up with rapid technology changes strategies-continuous learning and joining forums 2.fixing issues and Debugging strategy - using s systematic to debug by isolating the problem. 3.managing complex projects strategies- using project mangement tools like JIRA to organize track progress. 4.balancing quality and speed strategy- using automated testing to ensure new changes dont break existing functionality.
+handling old written code strategy- documenting your changes and ensuring the code is understandable for future maintainance.
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
-Unit tests - are close to the source of an application, They consist in testing individual methods and functions of the classes, components, or modules used by your software. - it ensures that each unit performs its intended function correctly, isolated from other components.
- Integration tests - verify that different modules or services used by your application work well together.
- - help to ensure data flows smoothly between modules and interfaces work as expected.
- System testing -Focus on the entire software system as a whole, including all functionalities and interactions.
- -It help to verify that the system meets all functional and non-functional requirements, including performance, usability, and security .
-Acceptance tests - are formal tests that verify if a system satisfies business requirements. They require the entire application to be running while testing and focus on replicating user behaviors. 
-- Whether the software meets the needs of the end-user and is ready for deployment.
 
+1.unit testing- it tests individual units its importance is it helps the issues early in the development process or debugging 2.intergration testing - it tests the intergration between components.its importance is it ensures different part of the system work together correctly. 3.system testing- it tsts the entire system as a whole so that it can meet desired requirement. its importance is it validate and complete software ensuring it functions correctly. 4.Acceptance testing -conducted to determine if the software meets the business requirement. its importance is provides confidence that the software meets users needs.
 
 #Part 2: Introduction to AI and Prompt Engineering
 
 Define prompt engineering and discuss its importance in interacting with AI models.
- prompt engineering  is the process where you guide generative AI solutions to generate desired outputs.
-Importance:
-Improved user experience - Prompt engineering makes it easy for users to obtain relevant results in the first prompt. It helps mitigate bias that may be present from existing human bias in the large language models’ training data.
-Increased flexibility - A prompt engineer can create prompts with domain-neutral instructions highlighting logical links and broad patterns.
-developer control - Prompt engineering gives developers more control over users' interactions with the AI. Effective prompts provide intent and establish context to the large language models. Provide an example of a vague prompt and then improve it by making it clear, specific, and concise.
 
+it involves designing and refining prompts -the input queries or instructions given to AI to ensure accurate and useful prompts. its importance is
 
-Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
-Draw a picture of a person
-Draw a full-body portrait of a young woman with long brown hair, wearing a red jacket and blue jeans, standing in a park on a sunny day with trees and grass in the background.
-Clarity: The improved prompt specifies what is being asked (a full-body portrait) rather than just a "person.
-Specific Details: Describing the woman's appearance (long brown hair, red jacket, blue jeans) and the setting (park, sunny day, trees, grass) gives clear guidance on the image to be created.
-Concise: The additional details provide a clear picture without being overly complicated, making it easier for the artist to understand exactly what is needed.
-
+crafting prompts that are clear and specific that helps the AI understand exactly what you are asking for.
+it ensures AI responses are aligned with specific scenario or topic.
+it saves time and improves the users experience by delivering accurate resulte quickly. Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
+improved prompt provide a brief overview of the major events in world history . why imoroved prompt is more effective. 1.it specifies the time period and wht exactly to cover 2.it narrows down the broad topics 3.it asks for a brief overview .
